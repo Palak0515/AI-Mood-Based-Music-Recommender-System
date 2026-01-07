@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mood-Based Music Recommender</title>
+    <link rel="stylesheet" href="StyleSheet1.css">
+</head>
+<div>
+    <body>
+
+        <header>
+            <hr color="white" />
+            <h1>AI Mood-Based Music & Content Recommender System</h1>
+            <hr color="white" />
+        </header>
+
+        <div class="container">
+
+            <!-- Left: Camera Box -->
+            <div class="camera-section">
+                <h2>Camera is capturing you...</h2>
+                <video id="cameraFeed" autoplay></video>
+                <button id="detectBtn">Detect Mood</button>
+            </div>
+
+            <!-- Right: Results -->
+            <div class="result-section">
+                <h2>Detected Mood</h2>
+                <p id="moodText">No mood detected yet...</p>
+
+                <h2>Recommended Songs</h2>
+                <ul id="songList"></ul>
+            </div>
+        </div>
+
+        <script src="Script1.js"></script>
+    </body>
+</div>
+</html>
+
+
